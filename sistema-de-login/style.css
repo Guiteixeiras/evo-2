@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arruma {
+    display: flex;
+}
+
+.arruma p {
+    margin: 10px;
+}
