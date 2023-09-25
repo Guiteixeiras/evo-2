@@ -10,9 +10,14 @@
 
 <body>
     <h1>Se cadastre</h1>
-    <form action="cadastrop.php" method="POST">
+
+    <form class="teste" action="cadastrop.php" method="POST">
         <p>
-            <label>E-mail</label>
+            <label>Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="coloque seu nome">
+        </p>
+        <p>
+            <label>Email</label>
             <input type="text" name="email" id="email" placeholder="coloque um email">
         </p>
         <p>
