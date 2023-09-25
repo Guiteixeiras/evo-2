@@ -11,15 +11,16 @@ include('protect.php');
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Painel</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    Bem vindo ao Painel, <?php echo $_SESSION['nome'];
-                            //puxa o nome do mysql e aparece no painel
-                            ?>.
-
-    <p>
-        <a href="logout.php">Sair</a> <!-- volta para o index pelo link do logout -->
+<body style="padding: 20px; color:blueviolet; font-size:x-large; background-color:aliceblue;">
+    <strong> Bem vindo ao Painel, <?php echo $_SESSION['nome'];
+                                    //puxa o nome do mysql e aparece no painel
+                                    ?>.
+    </strong>
+    <p style="margin:20px;">
+        <a class="botao2" href="logout.php">Sair</a> <!-- volta para o index pelo link do logout -->
     </p>
 </body>
 

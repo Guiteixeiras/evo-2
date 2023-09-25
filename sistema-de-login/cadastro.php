@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body style="background-color:blanchedalmond;">
     <h1>Se cadastre</h1>
 
-    <form class="teste" action="cadastrop.php" method="POST">
+    <form class="desespero" action="cadastrop.php" method="POST">
         <p>
             <label>Nome</label>
             <input type="text" name="nome" id="nome" placeholder="coloque seu nome">
@@ -26,10 +26,10 @@
         </p>
         <div class="arruma">
             <p>
-                <button type="submit" href="index.php">Registrar</button>
+                <button class="botao1" type="submit" href="index.php">Registrar</button>
             </p>
             <p>
-                <a href="logout.php">Sair</a>
+                <a class="botao2" href="logout.php">Sair</a>
             </p>
         </div>
     </form>

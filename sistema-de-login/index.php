@@ -61,23 +61,23 @@ if (isset($_POST['email']) || isset($_POST['senha'])) {
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <h1>Acesse sua conta</h1>
-    <form action="" method="POST">
+<body style="background-color:blanchedalmond;">
+    <h1 style="padding-bottom:25px;">Acesse sua conta</h1>
+    <form class="desespero" action="" method="POST">
         <p>
             <label>Email</label>
-            <input type="text" name="email">
+            <input type="text" name="email" id="email">
         </p>
         <p>
             <label>Senha</label>
-            <input type="password" name="senha">
+            <input type="password" name="senha" id="senha">
         </p>
         <div class="arruma">
             <p>
-                <button type="submit">Entrar</button>
+                <button class="botao1" type="submit">Entrar</button>
             </p>
             <p>
-                <a href="cadastro.php">Se cadastre aqui</a>
+                <a class="botao2" href="cadastro.php">Se cadastre aqui</a>
             </p>
         </div>
     </form>

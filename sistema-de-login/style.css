@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -6,13 +13,42 @@ body {
 
 .arruma {
     display: flex;
+    align-items: center;
 }
 
 .arruma p {
     margin: 10px;
 }
 
-.teste {
+.botao1 {
+    background-color: cyan;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.botao1:hover {
+    background-color: cornflowerblue;
+    transition: 0.5s;
+}
+
+.botao2 {
+    background-color: cyan;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+.botao2:hover {
+    background-color: cornflowerblue;
+    transition: 0.5s;
+}
+
+.desespero {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,5 +56,27 @@ body {
     color: white;
     background-color: dodgerblue;
     border-radius: 30px;
+    padding: 10px;
+}
+
+.desespero p {
+    margin: 10px;
+}
+
+#nome {
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#email {
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#senha {
+    border: none;
+    border-radius: 20px;
     padding: 10px;
 }
