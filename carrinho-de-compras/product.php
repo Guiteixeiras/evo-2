@@ -1,6 +1,6 @@
 <?php
 
-class product
+class Product
 {
 
     private int $id;
@@ -8,37 +8,42 @@ class product
     private int $price;
     private int $quantity;
 
-    public function setid(int $id)
+    public function setId(int $id)
     {
         $this->id = $id;
     }
-    public function setname(string $name)
+
+    public function setName(string $name)
     {
         $this->name = $name;
     }
-    public function setprice(int $price)
+
+    public function setPrice(int $price)
     {
         $this->price = $price;
     }
-    public function setquantity(int $quantity)
+
+    public function setQuantity(int $quantity)
     {
         $this->quantity = $quantity;
     }
 
-
-    public function getid()
+    public function getId()
     {
         return $this->id;
     }
-    public function getname()
+
+    public function getName()
     {
         return $this->name;
     }
-    public function getprice()
+
+    public function getPrice()
     {
         return $this->price;
     }
-    public function getquantity()
+
+    public function getQuantity()
     {
         return $this->quantity;
     }
